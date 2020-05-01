@@ -3,7 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>Leaflet Map</title>
-  <!-- External Stylesheets -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
 </head>
   <body>
@@ -14,7 +13,6 @@
  <script>
     // Create variable to hold map element, give initial settings to map
     var map = L.map('map',{ center: [42.362432, -71.086086], zoom: 14});
-   // Add OpenStreetMap tile layer to map element
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { attribution: '© OpenStreetMap' }).addTo(map);
 </script>
 
